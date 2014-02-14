@@ -14,7 +14,21 @@ public static class NetworkLib
         
         return 4;
     }
-
+    
+    public static async void GetRequestAsync(Uri Link, WebProxy wb=null, Action<object, DownloadStringCompletedEventArgs> ActionAfterDownload = null)
+    {
+        WebClient wc = new WebClient();
+        if (wb != null) wc.Proxy = wb;
+        wc.DownloadStringCompleted += new DownloadStringCompletedEventHandler(ActionAfterDownload);
+        wc.DownloadStringAsync(Link);
+    }
+    public static string GetRequest(Uri Link, WebProxy wb = null)
+    {
+        WebClient wc = new WebClient();
+        wc.Encoding = Encoding.UTF8;
+        if (wb != null) wc.Proxy = wb;
+        return wc.DownloadString(Link);
+    }
     public static WebProxy[] GetProxyListFromTopdan()
     {
         HtmlDocument htmlDoc = new HtmlDocument();
