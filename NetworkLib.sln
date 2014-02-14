@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkLib", "NetworkLib\NetworkLib.csproj", "{9F650F7D-A1F8-4CC8-AD86-350733067AD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsoleApp", "TestConsoleApp\TestConsoleApp.csproj", "{C079CD2A-35C8-4CB8-9E00-BDD01DDE2424}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F650F7D-A1F8-4CC8-AD86-350733067AD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F650F7D-A1F8-4CC8-AD86-350733067AD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F650F7D-A1F8-4CC8-AD86-350733067AD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F650F7D-A1F8-4CC8-AD86-350733067AD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C079CD2A-35C8-4CB8-9E00-BDD01DDE2424}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C079CD2A-35C8-4CB8-9E00-BDD01DDE2424}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C079CD2A-35C8-4CB8-9E00-BDD01DDE2424}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C079CD2A-35C8-4CB8-9E00-BDD01DDE2424}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
